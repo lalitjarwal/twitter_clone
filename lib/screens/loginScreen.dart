@@ -34,6 +34,8 @@ class _LoginState extends State<Login> {
             PopupMenuButton(tooltip: 'More options', itemBuilder: (ctx) {})
           ],
         ),
-        body: Container());
+        body: Container(
+          color: Colors.white,
+        ));
   }
 }
